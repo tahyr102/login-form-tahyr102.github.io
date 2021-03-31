@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 700px;
+    /* width: 1400px; */
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container .container-desk {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 700px;
+    width: 40%;
+    background-color: rgba(29, 28, 101, 1);
+    padding: 80px 100px 55px 80px;
+    background-image: url(elips-bckg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* logo */
+
+.container .container-desk .logo {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.container .container-desk .logo .logo-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 45px;
+    width: 45px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.container .container-desk .logo .logo-name {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center;
+    width: 60px;
+    height: 45px;
+}
+
+
+/* deskripsi */
+
+.container .container-desk .desc {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 250px;
+    justify-content: space-between;
+}
+
+.container .container-desk .desc .title-two {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9em;
+}
+
+.container .container-desk .desc .title-two h4 {
+    color: rgb(142, 141, 178);
+}
+
+.container .container-desk .desc .icon {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+
+/* line deskripsi */
+
+.container .container-desk .desc .line {
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+}
+
+.container .container-desk .desc .line .flat {
+    display: flex;
+    height: 2px;
+    width: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+/* footer */
+
+.container .container-desk .footer {
+    display: flex;
+    color: white;
+}
+
+.container .container-desk .footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 90%;
+    font-size: 0.9em;
+}
+
+.container .container-desk .footer ul li {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.container .container-desk .footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.container .container-desk .footer ul li a:hover {
+    color: gray;
+}
+
+
+/* sign up form */
+
+
+/* head  */
+
+.container .container-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+}
+
+.container-form .head p {
+    font-weight: bold;
+    color: rgb(142, 141, 178);
+}
+
+.container-form .address {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 160px;
+    font-weight: bold;
+}
+
+.container-form .set-add {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70px;
+    font-size: 0.9em;
+}
+
+.container-form .set-add input {
+    height: 40px;
+    border: 1px solid rgb(142, 141, 178);
+    padding-left: 20px;
+}
+
+.container-form .agree-forgot-password {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 0.8em;
+    width: 100%;
+}
+
+.container-form .agree-forgot-password .agree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-form .agree-forgot-password .forgot-password a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(29, 28, 101, 1);
+}
+
+.container-form .sign-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.container-form .sign-up button {
+    height: 40px;
+    background-color: rgba(29, 28, 101, 1);
+    color: white;
+    border: 1px solid rgb(142, 141, 178);
+    cursor: pointer;
+}
+
+.container-form .sign-up .google {
+    background-color: white;
+    color: rgb(142, 141, 178);
+}
